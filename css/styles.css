@@ -277,8 +277,9 @@ img {
 }
 
 .portfolio-item-content {
-    padding: 16px 32px;
-    border: 1px solid #e7e9fc
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 /* ============== /PORTFOLIO  STYLES ============== */
@@ -292,6 +293,8 @@ img {
 }
 .page-footer {
     background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .page-logotype-footer {
     display: inline-block;
@@ -307,8 +310,5 @@ img {
 .text-part-footer {
     color: #f4f4fd;
 }
-.footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+
 /* ============== /FOOTER STYLES ============== */
