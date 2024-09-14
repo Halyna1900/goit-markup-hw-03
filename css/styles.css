@@ -42,6 +42,11 @@ img {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.section-paddings {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 /* ============== /COMMON STYLES ============== */
 
 /* ============== HEADER STYLES ============== */
@@ -111,12 +116,6 @@ img {
     margin-right: 76px;
 }
 
-.section-paddings {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-
 /* ============== /HEADER STYLES ============== */
 
 /* ============== HERRO STYLES ============== */
@@ -146,11 +145,13 @@ img {
     letter-spacing: 0.04em;
     color: #ffffff;
     border-radius: 4px;
-    max-width: 169px;
+    min-width: 169px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 4px;
     padding: 16px 32px;
+    height: 56px;
+    border: none;
 }
 .button:hover,
 .button:focus {
@@ -182,19 +183,18 @@ img {
 
 .feature-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .feature-item {
     width: calc((100% - 72px) / 4);
 }
+
 /* ============== /FEATURE STYLES ============== */
 
 /* ============== OUR TEAM STYLES ============== */
 .team-section {
     background: #f4f4fd;  
-    margin-top: 60px;
-    margin-bottom: 60px;
 }
 .team-list-item {
     background: #ffffff;
@@ -231,11 +231,11 @@ img {
 
 .team-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .team-item-content {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 /* ============== /OUR TEAM STYLES ============== */
 
@@ -274,14 +274,13 @@ img {
 
 .portfolio-item {
     width: calc((100% - 48px) / 3);
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
 }
 
 .portfolio-item-content {
     padding: 16px 32px;
+    border: 1px solid #e7e9fc
 }
+
 /* ============== /PORTFOLIO  STYLES ============== */
 
 /* ============== FOOTER STYLES ============== */
@@ -295,7 +294,7 @@ img {
     background: #2e2f42;
 }
 .page-logotype-footer {
-    display: block;
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -311,6 +310,5 @@ img {
 .footer-container {
     padding-top: 100px;
     padding-bottom: 100px;
-    margin-top: 60px;
 }
 /* ============== /FOOTER STYLES ============== */
